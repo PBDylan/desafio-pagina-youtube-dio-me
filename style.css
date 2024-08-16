@@ -1,7 +1,11 @@
 html body {
-    width: 1440px;
     height: 1024px;
 }
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .menu {
     display: flex;
     align-items: center;
@@ -12,20 +16,20 @@ html body {
 .esquerda {
     display: flex;
     align-items: center;
-    margin-right: auto; /* Mantém a .esquerda à esquerda */
+    margin-right: auto;
 }
 
 .center {
     width: 404px;
-    display: block; /* Garante que a imagem será redimensionada */
-    object-fit: cover; /* Ajusta a imagem se necessário */
+    display: block;
+    object-fit: cover;
     padding-top: 40px;
     padding-bottom: 40px;
-    margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+    margin: 0 auto;
 }
 
 .dir {
-    margin-left: auto; /* Mantém a .dir à direita */
+    margin-left: auto;
 }
 
 .menu img {
@@ -33,7 +37,7 @@ html body {
 }
 
 .esq {
-    margin: 0px 40px 0px 20px;
+    margin: 0px 40px 0px 0px;
 }
 
 section {
@@ -42,12 +46,46 @@ section {
         position: absolute;
         top: 84px;
         left: 75px;
-        display: flex; /* Define o display como flex */
-        flex-direction: column; /* Organiza os itens verticalmente */
-        gap: 16px; /* Define o espaçamento entre os elementos */
-        opacity: 0;  
+        display: flex;
+        flex-direction: column; 
+        margin: 40px 0 0 20px;
 }
 
-#video {
-    
+section p {
+    font-weight: 600;
+    size: 20px;
+    line-height: 23.44px;
+}
+
+.actions {
+    width: 902px;
+    height: 42px;
+}
+
+#Avatar {
+    width: 42px;
+    height: 42px;
+}
+
+.video_actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+#red_button {
+    width: 159px;
+    height: 40px;
+    background-color: red;
+}
+
+#red_button p {
+    position: relative;
+    bottom: 8px;
+    color: white;
+    text-align: center;
+}
+
+p #desc {
+    color: rgba(81, 81, 81, 1);
 }
