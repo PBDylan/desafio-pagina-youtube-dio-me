@@ -1,4 +1,5 @@
 html body {
+    width: 1440px;
     height: 1024px;
 }
 
@@ -38,6 +39,16 @@ html body {
 
 .esq {
     margin: 0px 40px 0px 0px;
+}
+
+.sidebar {
+    width: 160px;
+    height: 938px;
+    position: absolute;
+    top: 84px;
+    left: 1052px;
+    display: flex;
+    gap: 16px;
 }
 
 section {
@@ -87,5 +98,30 @@ section p {
 }
 
 p #desc {
+    color: rgba(81, 81, 81, 1);
+}
+
+.videosdesc {
+    width: 196px;
+    position: absolute;
+    top: -10px;
+    left: 176px;
+    margin: 0;
+}
+
+.videosdesc p {
+    font-size: 10px;
+    line-height: 1.2;
+}
+
+.view {
+    position: absolute;
+    top: 20px;
+    left: 176px;
+}
+
+.view p {
+    line-height: 2;
+    font-size: 9px;
     color: rgba(81, 81, 81, 1);
 }
