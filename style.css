@@ -1,0 +1,53 @@
+html body {
+    width: 1440px;
+    height: 1024px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px 0px 24px;
+}
+
+.esquerda {
+    display: flex;
+    align-items: center;
+    margin-right: auto; /* Mantém a .esquerda à esquerda */
+}
+
+.center {
+    width: 404px;
+    display: block; /* Garante que a imagem será redimensionada */
+    object-fit: cover; /* Ajusta a imagem se necessário */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+}
+
+.dir {
+    margin-left: auto; /* Mantém a .dir à direita */
+}
+
+.menu img {
+    height: 24px;
+}
+
+.esq {
+    margin: 0px 40px 0px 20px;
+}
+
+section {
+        width: 952px;
+        height: 746px;
+        position: absolute;
+        top: 84px;
+        left: 75px;
+        display: flex; /* Define o display como flex */
+        flex-direction: column; /* Organiza os itens verticalmente */
+        gap: 16px; /* Define o espaçamento entre os elementos */
+        opacity: 0;  
+}
+
+#video {
+    
+}
